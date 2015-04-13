@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.teste.MainActivity" >
+
+    <item
+        android:id="@+id/menuTela1_1"
+        android:orderInCategory="100"
+        android:title="Acao 1"/>
+    <item
+        android:id="@+id/menuTela1_2"
+        android:orderInCategory="100"
+        android:title="Acao 2"/>
+    <item
+        android:id="@+id/menuTela1_3"
+        android:orderInCategory="100"
+        android:title="Acao 3"/>
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/linha_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/azul" />
+
+    <ImageView
+        android:id="@+id/linha_estrela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linha_nome"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@android:drawable/btn_star_big_off" />
+
+    <TextView
+        android:id="@+id/linha_telc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linha_email"
+        android:layout_alignTop="@+id/linha_estrela"
+        android:text="TextView" />
+        
+    <TextView
+        android:id="@+id/linha_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linha_estrela"
+        android:layout_alignLeft="@+id/linha_nome"
+        android:text="TextView" />
+
+</RelativeLayout>
